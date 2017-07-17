@@ -1,0 +1,8 @@
+!.gitignore
+.idea/copyright/
+.idea/deployment.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/wishing-widget.iml
+.idea/workspace.xml
+.gitignore

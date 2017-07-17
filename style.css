@@ -1,0 +1,345 @@
+body {
+    background: linear-gradient(182deg, #ff9933, #ffffff, #138808);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 39s ease infinite;
+    -moz-animation: AnimationName 39s ease infinite;
+    -o-animation: AnimationName 39s ease infinite;
+    animation: AnimationName 39s ease infinite;eg, #f7a600, #f9f6ef, #0fac53);
+    background-size: 600% 600%;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+
+
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px
+}
+
+.btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.main-form {
+    border: 1px solid #f30;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
+    margin-bottom: 60px
+}
+
+.main-form h4 {
+    text-shadow: -2px -1px 16px #708008;
+    font-weight: 700;
+    color: #f30;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+
+.main-form .title {
+    text-shadow: -1px 3px 19px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px
+}
+
+.main-form form {
+    text-align: left
+}
+
+.main-form form label small {
+    font-size: 10px
+}
+
+.main-form form .form-control {
+    border-radius: 0
+}
+
+.main-form form .btn {
+    border-radius: 0;
+    width: 100%
+}
+
+.main-form form .bg-group label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    background-size: cover;
+    cursor: pointer
+}
+
+.main-form form .bg-group label.active {
+    border-color: #f30
+}
+
+.main-form form .vi-group label {
+    display: inline-block;
+    width: 100px;
+    height: 75px;
+    margin: 5px;
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-size: cover;
+    cursor: pointer;
+    background-position: center
+}
+
+.main-form form .vi-group label.active {
+    border-color: #f30
+}
+
+.main-form .border {
+    border: 1px solid #f1f1f1
+    padding: 10px;
+}
+
+.main-form .table {
+    font-size: 12px;
+    margin: 0;
+    white-space: pre-line
+}
+
+.main-form .table textarea {
+    display: none
+}
+
+.main-form .table tr td {
+    cursor: pointer
+}
+
+.main-form .table tr.active textarea {
+    display: block
+}
+
+.main-form .pp_box {
+    display: none
+}
+
+.main-form .pp_box label {
+    text-align: center;
+    cursor: pointer
+}
+
+.main-form .pp_box label img {
+    margin-top: 10px;
+    margin-bottom: 30px
+}
+
+.main-form .pp_box .pp_main {
+    max-width: 200px
+}
+
+.main-greeting {
+    border-radius: 5px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    -webkit-box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
+    box-shadow: 3px 4px 41px 0 rgba(0, 0, 0, 0.64);
+    margin-bottom: 60px
+}
+
+.main-greeting .animation_head {
+    font-size: 25px
+}
+
+.main-greeting .animation_head p {
+    display: table;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 24px;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #f57100 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.main-greeting .animation_head .blk {
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    text-shadow: 2px 2px 20px #f30
+}
+
+.main-greeting .animation_head .blk div {
+    display: inline-block;
+    color: #e74c3c;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s
+}
+
+.main-greeting .main_body {
+    margin: 10px auto;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    font-size: 1.3em
+}
+
+.main-greeting .main_body .text {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    webkit-animation: jump 1.5s ease 2s infinite reverse forwards;
+    animation: jump 1.5s ease 2s infinite reverse forwards;
+    background: -webkit-linear-gradient(top, #00c20d, #e5110e);
+    background: linear-gradient(top, #00c20d, #e5110e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 8px 9px #a8e6b2;
+    white-space: pre-line
+}
+
+.main-greeting .main_body .text2 {
+    padding: 10px;
+    font-size: 16px
+}
+
+.main-greeting.new .pp-img {
+    max-width: 200px;
+    box-shadow: 5px 3px 3px 0 rgba(0, 0, 0, 0.64)
+}
+
+.main-greeting.new .text_gradient {
+    display: table;
+    margin: 5px auto;
+    font-weight: 700;
+    font-size: 24px;
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #f57100 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.main-greeting.new .vi {
+    margin: 20px auto
+}
+
+.share-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.share-box div {
+    padding: 0
+}
+
+.share-box .btn {
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 11px
+}
+
+.share-box .btn.whatsapp {
+    background-color: #4caf50
+}
+
+.share-box .btn.facebook {
+    background-color: #405d9b
+}
+
+@keyframes move {
+    0% {
+        top: 0
+    }
+    60% {
+        top: -40px
+    }
+    100% {
+        top: -80px
+    }
+}
+
+@-webkit-keyframes jump {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    20% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px)
+    }
+    50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+    80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(0)
+    }
+    40% {
+        transform: translateY(-30px)
+    }
+    50% {
+        transform: translateY(0)
+    }
+    60% {
+        transform: translateY(-15px)
+    }
+    80% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(0)
+    }
+}

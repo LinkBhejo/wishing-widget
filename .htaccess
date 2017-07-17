@@ -1,0 +1,12 @@
+<IfModule mod_headers.c>
+# WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+    Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+</IfModule>
+
+RewriteEngine On
+ErrorDocument 404 https://jangidcommunity.com/vishwakarma-jayanti/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ wish.php?slug=$1 [NC,L]
