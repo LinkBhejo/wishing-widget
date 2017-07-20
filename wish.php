@@ -10,7 +10,7 @@ $data = file_get_contents('uploads/'.$_GET['slug'].'.php');
 $data = json_decode($data);
 
 $name = @$data->name;
-$og_image = SITE_URL.'logo.png';
+$og_image = SITE_URL.'indian_flag.jpg';
 if(@$data->pp != ''){
     $og_image = SITE_URL.$data->pp;;
 }
@@ -25,14 +25,17 @@ if(@$data->pp != ''){
     <meta name="robots" content="index,follow"/>
     <link rel="icon" type="image/x-icon" href="favicon.png"/>
     <meta name="description" content="<?=$name?> Wishing You Happy Independence Day - Send your greeting to your Friends or Family."/>
-
-    <meta property="og:site_name"          content="Link Bhejo"/>
-    <meta property="fb:app_id"             content="684827678383164"/>
-    <meta property="og:url"                content="<?=SITE_URL.$row['slug']?>" />
-    <meta property="og:type"               content="article" />
-    <meta property="og:title"              content="<?=$name?> Wishing You Happy Independence Day" />
-    <meta property="og:description"        content="<?=$name?> Wishing You Happy Independence Day - Send your greeting to your Friends or Family."/>
-    <meta property="og:image"              content="<?=$og_image?>" />
+    <meta property="og:title" content="Send Your Best Wishes On Independence Day"/>
+    <meta property="og:site_name" content="Link Bhejo"/>
+    <meta property="og:url" content="<?=SITE_URL?>"/>
+    <meta property="og:description" content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family."/>
+    <meta property="fb:app_id" content="684827678383164"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:image" content="<?=SITE_URL?>/indian_flag.jpg"/>
+    <meta property="og:image:width" content="200"/>
+    <meta property="og:image:height" content="200"/>
+    <meta property='article:author' content='https://www.facebook.com/LinkBhejo/'/>
+    <meta property="article:publisher" content="https://www.facebook.com/LinkBhejo/"/>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="js/jquery.min.js"></script>
@@ -62,7 +65,7 @@ if(@$data->pp != ''){
            </div>
         </div>
 
-        <a href="<?=SITE_URL?>" class="btn btn-warning btn-block hidden" style="border-radius: 0px;">Create Your New Wishes</a>
+        <a href="<?=SITE_URL?>" class="btn btn-warning btn-block" style="border-radius: 0px;">Create Your New Wishes</a>
         <br>
 
             <div class="text-center" style="border-top: 1px solid #ddd">

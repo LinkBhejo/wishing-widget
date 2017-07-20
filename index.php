@@ -3,35 +3,29 @@ include_once('config.php');
 include_once('save.php');
 ?>
 <!DOCTYPE>
-<html lang="en-US" xml:lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
-<head profile="http://gmpg.org/xfn/11">
+<html lang="en-US" xml:lang="en-US">
+<head>
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Send Your Best Wishes On Independence Day</title>
     <meta name="language" content="en-US"/>
     <meta name="robots" content="index,follow"/>
     <link rel="icon" type="image/x-icon" href="favicon.png"/>
-    <meta name="description"
-          content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family"/>
+    <meta name="description" content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family"/>
+    <meta property="og:site_name" content="Link Bhejo" />
+    <meta property="og:url" content="<?=SITE_URL?>" />
     <meta name="twitter:title" content="Send Your Best Wishes On Independence Day">
-    <meta name="twitter:description"
-          content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family.">
-    <meta name="twitter:image" content="logo.png">
+    <meta name="twitter:description" content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family.">
+    <meta name="twitter:image" content="<?=SITE_URL?>/indian_flag.jpg">
     <meta property="og:title" content="Send Your Best Wishes On Independence Day"/>
-    <meta property="og:site_name" content="Link Bhejo"/>
-    <meta property="og:url" content="https://linkbhejo.com/wishing-widget"/>
-    <meta property="og:description"
-          content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family."/>
+    <meta property="og:description"  content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family."/>
+    <meta property="fb:app_id"  content="684827678383164"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:image" content="logo.png"/>
-    <meta property="og:image:width" content="450"/>
-    <meta property="og:image:height" content="298"/>
-    <meta content='https://www.facebook.com/linkbhejo/' property='article:author'/>
-    <meta property="article:publisher" content="https://www.facebook.com/linkbhejo/"/>
-    <meta itemprop="name" content="Send Your Best Wishes On Independence Day">
-    <meta itemprop="description"
-          content="Wishing You Happy Independence Day - Send your greeting to your Friends or Family.">
-    <meta itemprop="image" content="logo.png">
+    <meta property="og:image" content="<?=SITE_URL?>/indian_flag.jpg"/>
+    <meta property="og:image:width" content="200"/>
+    <meta property="og:image:height" content="200" />
+    <meta property="article:author" content="https://www.facebook.com/LinkBhejo/" />
+    <meta property="article:publisher" content="https://www.facebook.com/LinkBhejo/" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="js/jquery.min.js"></script>
